@@ -1,5 +1,5 @@
 '''Faça um programa que leia a quantidade de pessoas que serão convidadas para uma festa.
-após isso o programa irá perguntar o nome de todas as pessoas e colocar numa lista de convidades.'''
+Após isso o programa irá perguntar o nome de todas as pessoas e colocar numa lista de convidades.'''
 
 limite = int(input("Quantos convidados teremos na festa:"))
 convidados =[]
