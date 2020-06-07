@@ -4,4 +4,3 @@ class Cliente:
         self.cpf = cpf
         self.idade = idade
         print(f"Cliente: {nome}, cpf: {cpf}, {idade} anos.")
-
