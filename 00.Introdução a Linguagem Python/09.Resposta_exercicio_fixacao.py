@@ -1,6 +1,3 @@
-'''Exercicio:
-Escreva uma função que recebe um obejto de coleção e retorna o valor do maior numero dessa coleção e outra que recebe o menor'''
- 
 lista = [2,59,635,48,1.5,7,8.75,0.75]
 
 #Criado duas funções diferentes para mostrar formas diferentes de logicas.
@@ -17,4 +14,3 @@ def imprime_maior(lista):
 def imprime_menor(lista):
     lista.sort()
     return lista[0]
-
