@@ -1,4 +1,4 @@
-class conta:
+class Conta:
     def __init__(self,conta,nome,saldo,limite):
         print("construindo objeto conta {}".format(self))
         self.conta = conta
