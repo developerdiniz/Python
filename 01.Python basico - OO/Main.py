@@ -1,18 +1,16 @@
 from veiculo import Veiculo
 from carro import Carro
 
-#caminhao_preto = Veiculo("Preto", 6 , "Volvo",80)
-#print("Cor:",caminhao_preto.cor,", Rodas:",caminhao_preto.rodas,", Marca:",caminhao_preto.marca,", Tanque:",caminhao_preto.tanque)
+'''Criar um objeto = 
+nome_varivel = nome_do_construtor(parametros)'''
+carro_rafa = Carro("chumbo","KIA",27)
+#Vamos dar um print que vai retonar um objeto
+print(carro_rafa)
+#E podemos printar os atributos desse carro
+print(f"cor: {carro_rafa.cor}, rodas: {carro_rafa.rodas}, marca: {carro_rafa.marca}, tanque com {carro_rafa.tanque} litros")
 
-#caminhao_preto.pintar('azul')
-#print(f"Pintamos o caminha preto de {caminhao_preto.cor}")
-
-#caminhao_preto.abastecer(20)
-
-#caminhao_preto.viagem(90)
+#Vamos usar esse objeto com o metodo abastecer
+# objeto.metodo(parametro)
+carro_rafa.abastecer(12)
 
 
-soul = Carro("Chumbo","Kia",30)
-soul.abastecer(20)
-print("Cor:",soul.cor,", Rodas:",soul.rodas,", Marca:",soul.marca,", Tanque:",soul.tanque)
-soul.abastecer(1)
