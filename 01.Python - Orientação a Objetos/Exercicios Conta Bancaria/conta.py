@@ -1,11 +1,11 @@
-class Conta:
-    def __init__(self,conta,nome,saldo,limite):
-        print("construindo objeto conta {}".format(self))
+class CriarConta:
+    def __init__(self,conta,titular,saldo,limite):
+        print(f"construindo objeto conta {self}")
         self.conta = conta
-        self.nome = nome
+        self.titular = titular
         self.saldo = saldo
         self.limite = limite
-        print(f"Conta:{conta}, Nome: {nome}, Saldo:{saldo}, Limite:{limite}")
+        print(f"Conta:{conta}, Titular: {titular}, Saldo:{saldo}, Limite:{limite}")
 
     def extrato(self):
         return self.saldo
