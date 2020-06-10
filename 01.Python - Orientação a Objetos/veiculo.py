@@ -22,6 +22,3 @@ class Veiculo:
         consumo = kilometros/9
         self.tanque -= consumo
         print(f"Tanque com {self.tanque} litros após a viagem de {kilometros} kilometros")
-
-
-        
