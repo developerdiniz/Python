@@ -1,5 +1,6 @@
 class CriarConta:
     def __init__(self,conta,titular,saldo,limite):
+        # .__ para deixar o atributo privado.
         print(f"construindo objeto conta {self}")
         self.__conta = conta
         self.__titular = titular
