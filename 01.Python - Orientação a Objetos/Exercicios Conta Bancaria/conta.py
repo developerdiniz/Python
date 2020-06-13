@@ -24,15 +24,23 @@ class CriarConta:
         destino.depositar(valor)
 
     #GET: Retornar um valor
-    def get_saldo(self):
+    @property
+    def saldo(self):
+        print("Chamando property saldo")
         return self.__saldo
 
-    def get_titular(self):
+    @property
+    def titular(self):
+        print("Chamando property titular")
         return self.__titular
 
-    def get_limite(self):
+    @property
+    def limite(self):
+        print("Chamando property limite()")
         return self.__limite
 
     #SET= Alterar um valor
-    def set_limite(self,limite):
+    @limite.setter
+    def limite(self,limite):
+        print("Chamando setter limite()")
         self.__limite = limite
