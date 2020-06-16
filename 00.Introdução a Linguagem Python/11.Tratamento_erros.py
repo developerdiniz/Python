@@ -13,3 +13,10 @@ except ZeroDivisionError:
     print("Divisão por zero, não da pra fazer")
 except NameError:
     print("Você digitou alguma coisa errada")
+
+#Ou podemos deixar bem mais elaborado e dizer qual foi erro, atribuindo ele a uma variavel
+try:
+    a = 100 + a
+except Exception as erro:
+    print("Aconteceu um erro: ",erro)
+    
