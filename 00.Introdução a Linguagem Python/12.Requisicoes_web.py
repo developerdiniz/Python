@@ -1,7 +1,7 @@
 # Nome Procedimento: Aula - Bibliotecas, PIP e Requisições Web.
 # Descrição: Curso Solyd - Python básico 
-# Autor: Ricardo Couto Rafael Diniz
-# 31/Agosto/20
+# Autor: Rafael Diniz
+# 31/Agosto/2020
 # Versão: 1.0
 
 #Biblioteca para pegar requisições em paginas web
